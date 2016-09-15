@@ -7,8 +7,9 @@
 }
 
 body {
-    font-family: inherit, sans-serif;
+    font-family: monospace, sans-serif;
 }
+
 h1 {
     align-content: center;
 }
