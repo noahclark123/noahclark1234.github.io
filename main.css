@@ -1,0 +1,14 @@
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url(Images/5dXhOPh.gif);
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    font-family: inherit, sans-serif;
+}
+h1 {
+    align-content: center;
+}
