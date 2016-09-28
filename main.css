@@ -1,15 +1,19 @@
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url(Images/5dXhOPh.gif);
+    background-image: url(Images/5dXhOPh3.giff);
     background-size: cover;
     height: 100%;
 }
 
 body {
-    font-family: monospace, sans-serif;
+    cursor: url("Images/IMG_4083.ico"), default;
 }
 
+</style> font-family:monospace,
+sans-serif;
+
+}
 h1 {
     align-content: center;
 }
