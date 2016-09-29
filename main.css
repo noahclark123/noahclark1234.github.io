@@ -6,7 +6,7 @@
     height: 100%;
 }
 
-body {
+.body {
     cursor: url("Images/IMG_4083.ico"), default;
 }
 
@@ -16,4 +16,10 @@ sans-serif;
 }
 h1 {
     align-content: center;
+}
+.noahclark {
+    width: 170;
+    display: block;
+    margin-right: auto;
+    margin-left: auto
 }
