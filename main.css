@@ -6,9 +6,7 @@
     height: 100%;
 }
 
-.body {
-  
-}
+.body {}
 
 </style> font-family:monospace,
 sans-serif;
@@ -21,11 +19,13 @@ h1 {
     width: 170;
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
-
-
-
 .titles {
     text-align: center;
+}
+.images {
+    display: block;
+    margin-right: 10%;
+    margin-left: 10%;
 }
