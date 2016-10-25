@@ -6,31 +6,38 @@
     height: 100%;
 }
 
-.body {}
-
-</style> font-family:monospace,
-sans-serif;
-
+body {
+    background-image: url(Images/5dXhOPh.gif);
+    background-repeat: no-repeat;
+    background-size: 100%
 }
+
 h1 {
     align-content: center;
 }
+
 .noahclark {
     width: 170;
     display: block;
     margin-right: auto;
     margin-left: auto;
+    background-color: white;
 }
+
 .titles {
     text-align: center;
     background-color: aliceblue
 }
+
 .images {
     display: block;
     margin-right: 10%;
     margin-left: 10%;
 }
-.body2 {
-    background-image: url(Images/5dXhOPh.gif);
-    background-size: cover;
-}
+
+.images {}
+
+.body2 {}
+
+
+/*stuff*/
