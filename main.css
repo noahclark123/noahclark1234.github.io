@@ -31,11 +31,24 @@ h1 {
 
 .images {
     display: block;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
-.images {}
+#noah1:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#noah2:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#noah3:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
 
 .body2 {}
 
