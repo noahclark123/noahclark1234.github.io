@@ -1,15 +1,18 @@
-.jumbotron {
-    display: flex;
-    align-items: center;
-    background-image: url(Images/5dXhOPh3.giff);
-    background-size: cover;
-    height: 100%;
-}
+* {}
 
 body {
     background-image: url(Images/5dXhOPh.gif);
-    background-repeat: no-repeat;
-    background-size: 100%
+    background-repeat: round;
+    background-size: cover;
+    background-position: fixed;
+}
+
+#top {
+    z-index: auto;
+}
+
+.noahImage:hover {
+    filter: ;
 }
 
 h1 {
@@ -17,40 +20,108 @@ h1 {
 }
 
 .noahclark {
+    position: fixed;
+    width: 100%;
+    background-image: url(Images/IMiG_4083.ico);
+    background-size: 39px
+}
+
+.noahImage {
     width: 170;
     display: block;
     margin-right: auto;
     margin-left: auto;
     background-color: white;
+    border-radius: 3px;
+    z-index: 100;
 }
 
+.noahImage:scroll { 
+}
+
+
+}
 .titles {
     text-align: center;
-    background-color: aliceblue
+    background-color: aliceblue;
+    border: 2px solid;
 }
-
 .images {
+    z-index: 1;
+    position: fixed;
     display: block;
-    margin-right: 20%;
-    margin-left: 20%;
+     transform: rotate(3600deg);
+    transition: all 2s ease-in-out 0s;
+    margin-right: 5%;
+    margin-left: 5%;
+    min-width: 50em;
+    margin-bottom: 1em
 }
-
 #noah1:hover {
-    transform: rotate(360deg);
+   transform: scale(.7);
+    transform: rotate(80deg);
     transition: all 0.3s ease-in-out 0s;
+    margin-top: 10%;
+    filter: invert(100%);
+  
 }
-
 #noah2:hover {
-    transform: rotate(360deg);
+    transform: rotate(1deg);
     transition: all 0.3s ease-in-out 0s;
+    filter: saturate(15);
+    transform: scale(.7);
 }
-
 #noah3:hover {
-    transform: rotate(360deg);
+    transform: rotate(-15deg);
+    transition: all 0.3s ease-in-out 0s;
+    transform-style: preserve-3d;
+}
+#noah4:hover {
+    filter:blur(2px) invert(100%);
     transition: all 0.3s ease-in-out 0s;
 }
-
-.body2 {}
-
+#noah5:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out 0s;
+    filter: brightness(1.5);
+}
+#noah6:hover {
+    transform: rotate(-180deg);
+    transition: all 0.3s ease-in-out 0s;
+    filter: opacity(20%);
+}
+#noah7:hover {
+   transform: rotate(10000deg);
+    transition: all 7s ease-in-out 0s;
+    transform: scale(10);
+    
+}
+#noah8:hover {
+      transform: scale(1.3);
+    transition: all 0.3s ease-in-out 0s;
+    filter: brightness(10);
+    transform: scale(1.3);
+    
+}
+.body2 {
+    padding-top: 20;
+    object-fit: fixed;
+    z-index: -99;
+}
+#lowerdiv {
+    position: absolute;
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    margin-top: 500px;
+    z-index: 99;
+}
 
 /*stuff*/
+table {
+    margin-top: 10;
+}
+.navbar-inverse {
+    z-index: -99;
+    position:
+}
